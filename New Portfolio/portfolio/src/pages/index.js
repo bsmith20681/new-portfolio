@@ -26,6 +26,18 @@ const IndexPage = () => (
         </div>
       </div>
     </div>
+    <div className="homepage-title-container">
+      <h2 className="homepage-title">My Recent Projects</h2>
+    </div>
+    <div className="homepage-title-container">
+      <h2 className="homepage-title">Open Source I Contribute to</h2>
+    </div>
+    <div className="homepage-title-container">
+      <h2 className="homepage-title">My Recent Posts</h2>
+    </div>
+    <div className="homepage-title-container">
+      <h2 className="homepage-title">Contact Me</h2>
+    </div>
     <Link to="/using-typescript/">Go to "Using TypeScript"</Link>
   </Layout>
 )

@@ -593,7 +593,6 @@ pre tt:after {
 }
 
 /* CUSTOM CSS */
-
 .hero {
   align-items: center;
   justify-content: space-between;
@@ -611,4 +610,24 @@ pre tt:after {
   .hero-image {
     display: none;
   }
+}
+
+.homepage-title-container {
+  justify-content: center;
+  display: flex;
+}
+
+.homepage-title {
+  position: relative;
+  width: fit-content;
+}
+
+.homepage-title::before {
+  content: "";
+  position: absolute;
+  width: 5px;
+  height: 100%;
+  border-radius: 50px;
+  left: -10px;
+  background-color: #007bff;
 }
