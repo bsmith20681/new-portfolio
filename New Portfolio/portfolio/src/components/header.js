@@ -8,13 +8,7 @@ const Header = ({ siteTitle }) => (
       marginBottom: `1.45rem`,
     }}
   >
-    <div
-      style={{
-        margin: `0 auto`,
-        maxWidth: 960,
-        padding: `1.45rem 1.0875rem`,
-      }}
-    >
+    <div className="container">
       <h1 style={{ margin: 0 }}>
         <Link
           to="/"
@@ -23,7 +17,7 @@ const Header = ({ siteTitle }) => (
             textDecoration: `none`,
           }}
         >
-          ASK<span style={{color: '#2892D7'}}>BENSMITH</span>.COM
+          ASK<span style={{ color: "#007BFF" }}>BENSMITH</span>.COM
         </Link>
       </h1>
     </div>

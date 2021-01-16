@@ -9,13 +9,20 @@ const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
     <div className="container">
-      <div className="row">
+      <div className="row hero">
         <div className="col-md-6">
-          Hi I'm Ben Smith. I am a Front End web developer.
+          <h1>
+            Hi I'm <span style={{ color: "#007BFF" }}>Ben Smith</span>. I am a{" "}
+            <span style={{ color: "#007BFF" }}>Front End</span> Web Developer.
+          </h1>
+          <div>
+            <a href="">Contact Me</a>
+            <a href="">See My Work</a>
+          </div>
+          <p>🙋‍♂️ Currently Employed. Looking for remote work.</p>
         </div>
-
-        <div className="col-md-6">
-          <img src={Memoji}></img>
+        <div className="col-md-6 hero-image">
+          <img alt="memoji of ben smith" src={Memoji}></img>
         </div>
       </div>
     </div>

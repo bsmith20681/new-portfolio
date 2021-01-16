@@ -593,3 +593,22 @@ pre tt:after {
 }
 
 /* CUSTOM CSS */
+
+.hero {
+  align-items: center;
+  justify-content: space-between;
+}
+
+.hero-image {
+  max-width: 450px;
+}
+
+@media only screen and (max-width: 414px) {
+  .hero {
+    text-align: center;
+  }
+
+  .hero-image {
+    display: none;
+  }
+}
