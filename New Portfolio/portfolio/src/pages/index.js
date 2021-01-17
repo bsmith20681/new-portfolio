@@ -15,11 +15,20 @@ const IndexPage = () => (
             Hi I'm <span style={{ color: "#007BFF" }}>Ben Smith</span>. I am a{" "}
             <span style={{ color: "#007BFF" }}>Front End</span> Web Developer.
           </h1>
-          <div>
-            <a href="">Contact Me</a>
-            <a href="">See My Work</a>
+          <div style={{ marginBottom: "30px" }}>
+            <Link className="btn btn-blue" to="/contact-me">
+              Contact Me
+            </Link>
+            <Link className="btn btn-black" to="/">
+              See My Work
+            </Link>
           </div>
-          <p>🙋‍♂️ Currently Employed. Looking for remote work.</p>
+          <p>
+            <span role="img" aria-labelledby="emoji hand raised">
+              🙋‍♂️
+            </span>{" "}
+            Currently Employed. Looking for remote work.
+          </p>
         </div>
         <div className="col-md-6 hero-image">
           <img alt="memoji of ben smith" src={Memoji}></img>

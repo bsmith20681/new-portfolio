@@ -631,3 +631,20 @@ pre tt:after {
   left: -10px;
   background-color: #007bff;
 }
+
+/** UTILITIES **/
+.btn {
+  padding: 5px 10px;
+  margin: 0 30px 20px 0;
+  text-decoration: none;
+}
+
+.btn-blue {
+  color: #007bff;
+  border: 1px solid #007bff;
+}
+
+.btn-black {
+  color: black;
+  border: 1px solid black;
+}
