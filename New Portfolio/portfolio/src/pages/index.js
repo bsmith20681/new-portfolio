@@ -3,6 +3,8 @@ import { Link } from "gatsby"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import Project from "../components/project"
+
 import Memoji from "../images/memoji.png"
 
 const IndexPage = () => (
@@ -35,8 +37,25 @@ const IndexPage = () => (
         </div>
       </div>
     </div>
-    <div className="homepage-title-container">
-      <h2 className="homepage-title">My Recent Projects</h2>
+    <div className="container">
+      <div className="homepage-title-container container">
+        <h2 className="homepage-title">My Recent Projects</h2>
+      </div>
+      <Project
+        title="this is a title"
+        image="grey-square"
+        description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin scelerisque nibh ac molestie vestibulum. Vestibulum eu arcu id augue volutpat pulvinar. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Phasellus in elit quis diam fringilla ornare. Mauris scelerisque congue condimentum. Aliquam volutpat vehicula commodo. Etiam sollicitudin ut urna gravida fermentum. Maecenas risus leo, tincidunt ut dignissim eget, aliquam euismod ante."
+      />
+      <Project
+        title="this is a title"
+        image="grey-square"
+        description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin scelerisque nibh ac molestie vestibulum. Vestibulum eu arcu id augue volutpat pulvinar. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Phasellus in elit quis diam fringilla ornare. Mauris scelerisque congue condimentum. Aliquam volutpat vehicula commodo. Etiam sollicitudin ut urna gravida fermentum. Maecenas risus leo, tincidunt ut dignissim eget, aliquam euismod ante."
+      />
+      <Project
+        title="this is a title"
+        image="grey-square"
+        description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin scelerisque nibh ac molestie vestibulum. Vestibulum eu arcu id augue volutpat pulvinar. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Phasellus in elit quis diam fringilla ornare. Mauris scelerisque congue condimentum. Aliquam volutpat vehicula commodo. Etiam sollicitudin ut urna gravida fermentum. Maecenas risus leo, tincidunt ut dignissim eget, aliquam euismod ante."
+      />
     </div>
     <div className="homepage-title-container">
       <h2 className="homepage-title">Open Source I Contribute to</h2>
@@ -47,6 +66,7 @@ const IndexPage = () => (
     <div className="homepage-title-container">
       <h2 className="homepage-title">Contact Me</h2>
     </div>
+
     <Link to="/using-typescript/">Go to "Using TypeScript"</Link>
   </Layout>
 )

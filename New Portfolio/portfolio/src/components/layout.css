@@ -632,6 +632,13 @@ pre tt:after {
   background-color: #007bff;
 }
 
+.project {
+}
+
+.project-image {
+  border-radius: 30px;
+}
+
 /** UTILITIES **/
 .btn {
   padding: 5px 10px;
