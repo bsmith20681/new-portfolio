@@ -18,10 +18,10 @@ const IndexPage = () => (
             <span style={{ color: "#007BFF" }}>Front End</span> Web Developer.
           </h1>
           <div style={{ marginBottom: "30px" }}>
-            <Link className="btn btn-blue" to="/contact-me">
+            <Link className="btn btn-blue-filled" to="/contact-me">
               Contact Me
             </Link>
-            <Link className="btn btn-black" to="/">
+            <Link className="btn btn-blue" to="/">
               See My Work
             </Link>
           </div>
@@ -46,11 +46,7 @@ const IndexPage = () => (
         image="grey-square"
         description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin scelerisque nibh ac molestie vestibulum. Vestibulum eu arcu id augue volutpat pulvinar. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Phasellus in elit quis diam fringilla ornare. Mauris scelerisque congue condimentum. Aliquam volutpat vehicula commodo. Etiam sollicitudin ut urna gravida fermentum. Maecenas risus leo, tincidunt ut dignissim eget, aliquam euismod ante."
       />
-      <Project
-        title="this is a title"
-        image="grey-square"
-        description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin scelerisque nibh ac molestie vestibulum. Vestibulum eu arcu id augue volutpat pulvinar. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Phasellus in elit quis diam fringilla ornare. Mauris scelerisque congue condimentum. Aliquam volutpat vehicula commodo. Etiam sollicitudin ut urna gravida fermentum. Maecenas risus leo, tincidunt ut dignissim eget, aliquam euismod ante."
-      />
+      <Project title="this is a title" image="grey-square" description="" />
       <Project
         title="this is a title"
         image="grey-square"

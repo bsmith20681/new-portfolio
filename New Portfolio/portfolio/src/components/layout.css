@@ -644,11 +644,17 @@ pre tt:after {
   padding: 5px 10px;
   margin: 0 30px 20px 0;
   text-decoration: none;
+  border-radius: 5px;
 }
 
 .btn-blue {
   color: #007bff;
   border: 1px solid #007bff;
+}
+
+.btn-blue-filled {
+  background-color: #007bff;
+  color: white;
 }
 
 .btn-black {
