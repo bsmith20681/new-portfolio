@@ -6,6 +6,7 @@ html {
   font: 112.5%/1.45em georgia, serif, sans-serif;
   box-sizing: border-box;
   overflow-y: scroll;
+  scroll-behavior: smooth;
 }
 body {
   margin: 0;
@@ -639,6 +640,25 @@ pre tt:after {
   border-radius: 30px;
 }
 
+/** CONTACT ME PAGE **/
+
+.contact-input {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.contact-textArea {
+  margin-bottom: 20px;
+  display: block;
+}
+
+.contact-form {
+  width: fit-content;
+  margin-right: auto;
+  margin-left: auto;
+}
+
 /** UTILITIES **/
 .btn {
   padding: 5px 10px;
@@ -660,4 +680,8 @@ pre tt:after {
 .btn-black {
   color: black;
   border: 1px solid black;
+}
+
+.justify-content-center {
+  justify-content: center;
 }

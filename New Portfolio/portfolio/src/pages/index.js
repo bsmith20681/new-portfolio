@@ -21,9 +21,9 @@ const IndexPage = () => (
             <Link className="btn btn-blue-filled" to="/contact-me">
               Contact Me
             </Link>
-            <Link className="btn btn-blue" to="/">
+            <a className="btn btn-blue" href="#recentProjects">
               See My Work
-            </Link>
+            </a>
           </div>
           <p>
             <span role="img" aria-labelledby="emoji hand raised">
@@ -37,7 +37,7 @@ const IndexPage = () => (
         </div>
       </div>
     </div>
-    <div className="container">
+    <div className="container" id="recentProjects">
       <div className="homepage-title-container container">
         <h2 className="homepage-title">My Recent Projects</h2>
       </div>

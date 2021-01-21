@@ -1,6 +1,10 @@
 import React from "react"
 import { Link } from "gatsby"
 
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+import { faLaptop } from "@fortawesome/free-solid-svg-icons"
+import { faGithub } from "@fortawesome/free-brands-svg-icons"
+
 const Project = props => {
   return (
     <div class="row">
@@ -18,10 +22,11 @@ const Project = props => {
           {props.description}...<Link to="/">Read More</Link>
         </p>
         <a href="" className="btn btn-blue-filled">
-          <i class="fas fa-laptop"></i>Demo
+          <FontAwesomeIcon icon={faLaptop} /> Demo
         </a>
         <a href="" className="btn btn-blue">
-          <i class="fab fa-github"></i>View Code
+          <FontAwesomeIcon icon={faGithub} />
+          View Code
         </a>
       </div>
     </div>
