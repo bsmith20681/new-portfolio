@@ -641,16 +641,14 @@ pre tt:after {
 }
 
 /** CONTACT ME PAGE **/
-
 .contact-input {
-  display: flex;
-  justify-content: space-between;
   margin-bottom: 20px;
+  width: 100%;
 }
 
 .contact-textArea {
   margin-bottom: 20px;
-  display: block;
+  width: 100%;
 }
 
 .contact-form {
@@ -667,14 +665,37 @@ pre tt:after {
   border-radius: 5px;
 }
 
+.btn:hover {
+  cursor: pointer;
+}
+
 .btn-blue {
   color: #007bff;
   border: 1px solid #007bff;
+  -webkit-transition: color 0.5s;
+  -moz-transition: color 0.5s;
+  -ms-transition: color 0.5s;
+  -o-transition: color 0.5s;
+  transition: color 0.5s;
+}
+
+.btn-blue:hover {
+  color: #79b8fc;
+  border: 1px solid #79b8fc;
 }
 
 .btn-blue-filled {
   background-color: #007bff;
   color: white;
+  -webkit-transition: background-color 0.5s;
+  -moz-transition: background-color 0.5s;
+  -ms-transition: background-color 0.5s;
+  -o-transition: background-color 0.5s;
+  transition: background-color 0.5s;
+}
+
+.btn-blue-filled:hover {
+  background-color: #005bbd;
 }
 
 .btn-black {

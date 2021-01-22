@@ -32,11 +32,14 @@ const Layout = ({ children }) => {
         <footer
           style={{
             marginTop: `2rem`,
+            padding: `1.5rem`,
+            textAlign: "center",
+            backgroundColor: "#6E6E6E",
+            color: "white",
           }}
         >
-          © {new Date().getFullYear()}, Built with
+          © {new Date().getFullYear()}, All Rights Reserved
           {` `}
-          <a href="https://www.gatsbyjs.com">Gatsby</a>
         </footer>
       </div>
     </>

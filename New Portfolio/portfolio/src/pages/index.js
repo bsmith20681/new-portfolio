@@ -62,8 +62,6 @@ const IndexPage = () => (
     <div className="homepage-title-container">
       <h2 className="homepage-title">Contact Me</h2>
     </div>
-
-    <Link to="/using-typescript/">Go to "Using TypeScript"</Link>
   </Layout>
 )
 

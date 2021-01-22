@@ -17,18 +17,27 @@ const ContactMe = () => (
       </div>
       <div>
         <form action="" className="contact-form">
-          <div className="contact-input">
-            <input type="text" placeholder="Name" />
-            <input type="text" placeholder="email" />
+          <div className="row">
+            <div className="col-md-6">
+              <input type="text" className="contact-input" placeholder="Name" />
+            </div>
+            <div className="col-md-6">
+              <input
+                type="email"
+                className="contact-input"
+                placeholder="Email"
+              />
+            </div>
           </div>
-          <textarea
-            name=""
-            id=""
-            cols="55"
-            rows="10"
-            placeholder="Type Your Message..."
-            className="contact-textArea"
-          ></textarea>
+          <div className="row">
+            <div className="col-md-12">
+              <textarea
+                className="contact-textArea"
+                rows="10"
+                placeholder="Type Your Message..."
+              ></textarea>
+            </div>
+          </div>
           <button className="btn btn-blue-filled" style={{ border: "none" }}>
             Send Message
           </button>
