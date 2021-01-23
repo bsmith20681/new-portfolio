@@ -1,4 +1,5 @@
 import React from "react"
+import * as emailjs from "emailjs-com"
 //import { Link } from "gatsby"
 
 import Layout from "../components/layout"
