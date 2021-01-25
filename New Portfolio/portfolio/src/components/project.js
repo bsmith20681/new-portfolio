@@ -7,7 +7,7 @@ import { faGithub } from "@fortawesome/free-brands-svg-icons"
 
 const Project = props => {
   return (
-    <div class="row">
+    <div className="row">
       <div className="col-md-5">
         <img
           className="project-image"

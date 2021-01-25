@@ -37,19 +37,18 @@ const ContactMe = () => {
     setMessage("")
   }
 
-  const messageSent = () => {
-    return <h1>Your message was sent</h1>
-  }
-
-  const messageFail = () => {
-    return <h1>Your message was NOT sent</h1>
-  }
-
   return (
     <Layout>
       <SEO title="Home" />
       <div className="container">
         <div style={{ textAlign: "center" }}>
+          {messageSuccess === true ? (
+            <h1>Message was sent!!</h1>
+          ) : messageSuccess === null ? (
+            ""
+          ) : (
+            <h1>Your message was NOT sent</h1>
+          )}
           <h1>Contact Me</h1>
           <p>
             This message goes to my personal email and I usually respond within
