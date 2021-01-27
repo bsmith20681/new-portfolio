@@ -4,6 +4,7 @@ import * as emailjs from "emailjs-com"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import DisplayMessage from "../components/DisplayMessage"
 
 const ContactMe = () => {
   const [name, setName] = useState("")
@@ -17,7 +18,7 @@ const ContactMe = () => {
     emailjs
       .sendForm(
         "service_zr5224k",
-        "template_u6vwy56",
+        "template_",
         e.target,
         "user_cUDGxCajC3J07prrCf4OQ"
       )
@@ -42,13 +43,6 @@ const ContactMe = () => {
       <SEO title="Home" />
       <div className="container">
         <div style={{ textAlign: "center" }}>
-          {messageSuccess === true ? (
-            <h1>Message was sent!!</h1>
-          ) : messageSuccess === null ? (
-            ""
-          ) : (
-            <h1>Your message was NOT sent</h1>
-          )}
           <h1>Contact Me</h1>
           <p>
             This message goes to my personal email and I usually respond within
@@ -56,6 +50,13 @@ const ContactMe = () => {
           </p>
         </div>
         <div>
+          {messageSuccess === true ? (
+            <DisplayMessage message={messageSuccess} />
+          ) : messageSuccess === null ? (
+            ""
+          ) : (
+            <DisplayMessage message={messageSuccess} />
+          )}
           <form onSubmit={handleSubmit} className="contact-form">
             <div className="row">
               <div className="col-md-6">
