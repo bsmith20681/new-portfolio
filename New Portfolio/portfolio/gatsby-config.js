@@ -1,3 +1,5 @@
+require("dotenv").config()
+
 module.exports = {
   siteMetadata: {
     title: `Ben Smith's Portfolio`,
@@ -11,6 +13,14 @@ module.exports = {
       options: {
         name: `images`,
         path: `${__dirname}/src/images`,
+      },
+    },
+    {
+      resolve: "gatsby-source-sanity",
+      options: {
+        projectId: "9ulgxzll",
+        dataset: "production",
+        token: process.env.SANITY_TOKEN,
       },
     },
     `gatsby-transformer-sharp`,
