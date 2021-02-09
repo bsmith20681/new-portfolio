@@ -23,18 +23,21 @@ const Blog = () => {
   `)
   return (
     <Layout>
-      <h1>This is the blog page</h1>
-      {console.log(data.allSanityPost.nodes)}
-      {data.allSanityPost.nodes.map(article => {
-        return (
-          <ul>
-            <li>
-              <img src={article.mainImage.asset.url} alt="" />
-              <Link to={article._rawSlug.current}>{article.title}</Link>
-            </li>
-          </ul>
-        )
-      })}
+      <div className="container">
+        <div className="row">
+          {console.log(data.allSanityPost.nodes)}
+          {data.allSanityPost.nodes.map(article => {
+            return (
+              <div className="col-md-4 blog-item">
+                <Link to={article._rawSlug.current}>
+                  <img src={article.mainImage.asset.url} alt="" />
+                  <h4 className="blog-title">{article.title}</h4>
+                </Link>
+              </div>
+            )
+          })}
+        </div>
+      </div>
     </Layout>
   )
 }

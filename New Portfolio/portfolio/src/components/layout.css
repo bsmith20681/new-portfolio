@@ -657,6 +657,29 @@ pre tt:after {
   margin-left: auto;
 }
 
+/** BLOG PAGE **/
+
+.blog-item {
+  transition: 0.2s ease;
+}
+
+.blog-item a {
+  text-decoration: none;
+}
+
+.blog-item img {
+  margin-bottom: 0;
+  border-radius: 5px;
+}
+
+.blog-item:hover {
+  opacity: 0.75;
+  transform: translateY(5px);
+}
+.blog-title {
+  color: black;
+}
+
 /** UTILITIES **/
 .btn {
   padding: 5px 10px;
