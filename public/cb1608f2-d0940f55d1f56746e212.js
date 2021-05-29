@@ -1,0 +1,3 @@
+/*! For license information please see cb1608f2-d0940f55d1f56746e212.js.LICENSE.txt */
+(window.webpackJsonp=window.webpackJsonp||[]).push([[5],{wHSu:function(c,n,o){"use strict";o.d(n,"a",(function(){return i}));var i={prefix:"fas",iconName:"laptop",icon:[640,512,[],"f109","M624 416H381.54c-.74 19.81-14.71 32-32.74 32H288c-18.69 0-33.02-17.47-32.77-32H16c-8.8 0-16 7.2-16 16v16c0 35.2 28.8 64 64 64h512c35.2 0 64-28.8 64-64v-16c0-8.8-7.2-16-16-16zM576 48c0-26.4-21.6-48-48-48H112C85.6 0 64 21.6 64 48v336h512V48zm-64 272H128V64h384v256z"]}}}]);
+//# sourceMappingURL=cb1608f2-d0940f55d1f56746e212.js.map
