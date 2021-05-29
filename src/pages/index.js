@@ -74,7 +74,7 @@ const IndexPage = () => {
           title="University Landing Page"
           image="university-homepage"
           description="University Landing Page is a mock landing page for a higher education consulting company. It was built using HTML, SASS, Jquery, and Bootstrap. It is fully responsive and has proper markup to make it easily crawled by search engines. This site is fully compliant with proper website accessibility making it easy to use for anyone. "
-          demoLink="https://similarfont.io/"
+          demoLink="https://optimistic-northcutt-94a4fc.netlify.app/"
           githubLink="https://github.com/bsmith20681/university-landing-page"
         />
         <Project
