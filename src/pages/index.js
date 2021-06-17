@@ -36,7 +36,7 @@ const IndexPage = () => {
               Hi I'm <span style={{ color: "#007BFF" }}>Ben Smith</span>. I am a{" "}
               <span style={{ color: "#007BFF" }}>Front End</span> Web Developer.
             </h1>
-            <div style={{ marginBottom: "30px" }}>
+            <div className="row" style={{ marginBottom: "30px" }}>
               <Link
                 className="btn btn-blue-filled"
                 to="https://drive.google.com/file/d/1TUri61qg_5cdWk-E3BwkVeqX6iabqyHT/view?usp=sharing"

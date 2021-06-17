@@ -1,11 +1,11 @@
 var plugins = [{
-      plugin: require('D:/Coding Projects/New Portfolio/portfolio/node_modules/gatsby-plugin-react-helmet/gatsby-ssr'),
+      plugin: require('D:/Coding Projects/portfolio/node_modules/gatsby-plugin-react-helmet/gatsby-ssr'),
       options: {"plugins":[]},
     },{
-      plugin: require('D:/Coding Projects/New Portfolio/portfolio/node_modules/gatsby-source-sanity/gatsby-ssr'),
+      plugin: require('D:/Coding Projects/portfolio/node_modules/gatsby-source-sanity/gatsby-ssr'),
       options: {"plugins":[],"projectId":"9ulgxzll","dataset":"production","token":"sk4PW0KYmLlumveqO7lLpCdaHnc2GG7EjHq3gQ4EV5MycsDeKZNbQZCk4lxNiLb6uivg4A0rmjUcHYffTQ8debJGDMPlVWiPFxjrkQhjEENAG2gnVxZRDP3BgVmTSBHJlCeWJTqMwjXFNyeiGzJg6lFcr3uNu2GlUMK8OE5n5EP76GNjktnj"},
     },{
-      plugin: require('D:/Coding Projects/New Portfolio/portfolio/node_modules/gatsby-plugin-manifest/gatsby-ssr'),
+      plugin: require('D:/Coding Projects/portfolio/node_modules/gatsby-plugin-manifest/gatsby-ssr'),
       options: {"plugins":[],"name":"gatsby-starter-default","short_name":"starter","start_url":"/","background_color":"#663399","theme_color":"#663399","display":"minimal-ui","icon":"src/images/favicon-32x32.png","legacy":true,"theme_color_in_head":true,"cache_busting_mode":"query","crossOrigin":"anonymous","include_favicon":true,"cacheDigest":"36d17055615ba711e65d1629e893fdf7"},
     }]
 // During bootstrap, we write requires at top of this file which looks like:
