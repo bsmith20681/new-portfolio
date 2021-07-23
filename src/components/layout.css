@@ -596,6 +596,7 @@ pre tt:after {
 
 /* CUSTOM CSS */
 .hero {
+  margin-top: 20px;
   align-items: center;
   justify-content: space-between;
 }
@@ -706,7 +707,8 @@ nav {
 
 .nav-logo {
   color: black;
-  font-size: 1.25rem;
+  font-size: 1.5rem;
+  margin-top: 5px;
 }
 
 .nav-link-list {
@@ -724,7 +726,7 @@ nav {
 
 /**HAMBURGER**/
 #hamburger {
-  margin-top: 20px;
+  margin-top: 5px;
   position: absolute;
   top: 0;
   right: 10%;
