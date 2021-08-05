@@ -17,6 +17,7 @@ const Project = props => {
       <div className="col-md-7">
         <h3>{props.title}</h3>
         <hr></hr>
+        <p>Technologies Used: {props.technologies}</p>
         <p>{props.description}</p>
         <a href={props.demoLink} className="btn btn-blue-filled">
           <FontAwesomeIcon icon={faLaptop} /> Demo

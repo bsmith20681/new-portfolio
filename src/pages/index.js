@@ -6,6 +6,8 @@ import SEO from "../components/seo"
 import Project from "../components/project"
 
 import Memoji from "../images/memoji.png"
+import github from "../images/github.svg"
+import linkedin from "../images/linkedin.svg"
 
 const IndexPage = () => {
   const data = useStaticQuery(graphql`
@@ -36,7 +38,7 @@ const IndexPage = () => {
               Hi I'm <span style={{ color: "#007BFF" }}>Ben Smith</span>. I am a{" "}
               <span style={{ color: "#007BFF" }}>Front End</span> Web Developer.
             </h1>
-            <div className="row" style={{ marginBottom: "30px" }}>
+            <div className="hero-buttons">
               <Link
                 className="btn btn-blue-filled"
                 to="https://drive.google.com/file/d/1TUri61qg_5cdWk-E3BwkVeqX6iabqyHT/view?usp=sharing"
@@ -47,12 +49,22 @@ const IndexPage = () => {
                 See My Work
               </a>
             </div>
-            <p>
-              <span role="img" aria-labelledby="emoji hand raised">
-                🙋‍♂️
-              </span>{" "}
-              Currently Employed. Looking for remote work.
-            </p>
+            <div className="hero-icons">
+              <a href="https://github.com/bsmith20681/">
+                <img
+                  className="hero-icon"
+                  src={github}
+                  alt="github icon link"
+                />
+              </a>
+              <a href="https://www.linkedin.com/in/ben-smith-268006a7/">
+                <img
+                  className="hero-icon"
+                  src={linkedin}
+                  alt="linkedin icon link"
+                />
+              </a>
+            </div>
           </div>
           <div className="col-md-6 hero-image">
             <img alt="memoji of ben smith" src={Memoji}></img>
@@ -66,23 +78,26 @@ const IndexPage = () => {
         <Project
           title="SimilarFont.io"
           image="similarfont-homepage"
-          description="Similarfont.io is a blog where I document free alternatives to premium fonts. It was built using Next.js, Sanity CMS, and SASS. All of the pages were designed by myself using Figma. It is currently getting close to 200 pageviews per month and is slowly climbing up the Google search rankings for terms such as “Google Font Alternative”. "
+          technologies="Next.js, SCSS, Sanity Headless CMS"
+          description="Similarfont.io is a blog where I document free alternatives to premium fonts. It was built using Next.js, Sanity CMS, and SASS. All of the pages were designed by myself using Figma. It is currently getting close to 2,300 pageviews per month and is slowly climbing up the Google search rankings for terms such as “Google Font Alternative”. "
           demoLink="https://similarfont.io/"
-          githubLink=""
+          githubLink="https://github.com/bsmith20681/similarfont.io"
         />
         <Project
-          title="University Landing Page"
-          image="university-homepage"
-          description="University Landing Page is a mock landing page for a higher education consulting company. It was built using HTML, SASS, Jquery, and Bootstrap. It is fully responsive and has proper markup to make it easily crawled by search engines. This site is fully compliant with proper website accessibility making it easy to use for anyone. "
-          demoLink="https://optimistic-northcutt-94a4fc.netlify.app/"
-          githubLink="https://github.com/bsmith20681/university-landing-page"
+          title="CryptoWatch"
+          image="cryptowatch-homepage"
+          technologies="React.js, SCSS, Axios, Coingecko API, Chart.js"
+          description="Cryptowatch is a cryptocurrency price tracking app that displays the latest prices on the top 10 cryptocurrencies. This app was built using React.js and fetches all it’s data using the Coingecko api. The project was originally designed using Figma and then transformed into a working prototype using JSX and CSS. "
+          demoLink="https://elated-jackson-04b800.netlify.app/"
+          githubLink="https://github.com/bsmith20681/cryptowatch"
         />
         <Project
-          title="traveler.com"
-          image="travel-homepage"
-          description="Traveler.com is a mock flight booking website similar to kayak.com or Google Flights. It was built using React.js and uses the SkyScanner API (yes the demo will find real flights based on SkyScanner’s results). This project was also designed using Figma and was styled using SASS. This project features a calendar component built from scratch and filtered search component. "
-          demoLink="https://similarfont.io/"
-          githubLink="https://github.com/bsmith20681/flight-app-frontend"
+          title="Ecommerce Landing Page (Single Product)"
+          image="pureskin-homepage"
+          technologies="HTML, CSS, jQuery, Bootstrap"
+          description="Pureskin is a mock landing page advertising a skin care product. This project is fully responsive and was built using the Bootstrap framework. Despite using a framework, I did write a lot of my own custom CSS in order to make the design look more original. HTML, CSS, and JavaScript were the main technologies used in this project."
+          demoLink="https://frosty-rosalind-e9fc47.netlify.app/"
+          githubLink="https://github.com/bsmith20681/shopify-theme-html"
         />
       </div>
       <div className="container">

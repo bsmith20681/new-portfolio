@@ -605,6 +605,16 @@ pre tt:after {
   max-width: 450px;
 }
 
+.hero-buttons {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.hero-icon {
+  width: 25px;
+  margin-right: 15px;
+}
+
 @media only screen and (max-width: 414px) {
   .hero {
     text-align: center;
